@@ -1,0 +1,68 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+.config/
+
+# Rider
+.idea/
+
+# Auto-generated files
+*.Generated.cs
+
+# Logs
+*.log
+
+# dotnet artifacts
+*.dbmdl
+*.pdb
+*.cache
+*.dll
+*.exe
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# ASP.NET (caso use no futuro)
+Properties/launchSettings.json
+
+# Environment files
+.env
+*.env
+
+# System/macOS/Linux files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.old
+*.tmp
+
+# Test results
+TestResults/
+
+# Global JetBrains Rider settings
+.idea/
+
+# Local secrets
+secrets.json
+
+# dotnet tools
+.tool-manifest
+
+# Optional: prevent including .NET user-wide tools
+.dotnet/
